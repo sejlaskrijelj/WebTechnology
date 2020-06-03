@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>addVjezba</title>
+	<link rel="stylesheet" href="addVjezba.css">
+</head>
+<body>
+<div id="header">
+		     	<h1>Dodavanje vježbe/spirale</h1>
+		     	<img src="logo.png" alt="logo" id="logo">
+		     	<div id="meni">
+		     		<ul>
+						<li><a href="../Spirala/login.html">Login</a></li>
+						<li><a href="../Spirala/studenti.html">Studenti</a></li>
+						<li><a href="../Spirala/zadaci.html">Zadaci</a></li>
+						<li><a href="../Spirala/commiti.html">Commiti</a></li>
+						<li><a href="../Spirala/addZadatak.html">Dodaj zadatak</a></li>
+						<li><a href="../Spirala/addVjezba.html">Dodaj vježbu</a></li>
+						<li><a href="../Spirala/addStudent.html">Dodaj studenta</a></li>
+						<li><a href="../Spirala/addGodina.html">Dodaj godinu</a></li>
+		     		</ul>
+		     	</div>
+		  </div>
+ <div id="glavniSadrzaj">
+                 <br>
+                 <br>
+         	<form>
+         		<h3>Dodavanje postojeće vježbe/spirale</h3>
+         		<br> 
+         		Godina <br>
+              <select class="sGodine">
+              	<option value="Godina 2014/2015">Godina 2014/2015</option>
+              	<option value="Godina 2015/2016">Godina 2015/2016</option>
+              	<option value="Godina 2016/2017">Godina 2016/2017</option>
+              	<option value="Godina 2017/2018">Godina 2017/2018</option>
+              	<option value="Godina 2018/2019">Godina 2018/2019</option>
+              </select>
+              <br>  <br>
+                Vježbe/spirale <br> 
+              <select>
+              	<option value="vježba X">Vježba X</option>
+              	<option value="vježba Y">Vježba Y</option>
+              </select>
+              <br> <br>
+              <input type="submit" name="submit" value="Dodaj" id="dugme1">
+              <br>	<br>
+          </form>
+              <br>
+              <form name="fNova">
+         		<h3>Nova vježba/spirala</h3>
+         		<br> 
+         	 Naziv vježbe <br> 
+            <input type="text"  required>
+            <br> <br> 
+            Godina <br> 
+             <select class="sGodine">
+              	<option value="Godina 2014/2015" >Godina 2014/2015</option>
+              	<option value="Godina 2015/2016">Godina 2015/2016</option>
+              	<option value="Godina 2016/2017">Godina 2016/2017</option>
+              	<option value="Godina 2017/2018">Godina 2017/2018</option>
+              	<option value="Godina 2018/2019">Godina 2018/2019</option>
+              </select>
+			   <br> <br>
+			   <div id="paragraf">
+				   Zadatak 1 <br> 
+				   Zadatak 2 <br> 
+				   Zadatak 3 <br> 
+			   </div>
+              <select id="sVjezbe">
+              	<option value="Zadatak X">Zadatak X</option>
+              	<option value="Zadatak Y">Zadatak Y</option>
+              </select>
+            
+            <input type="button" name="dZadatak" value="Dodaj zadatak">
+            <br> <br> 
+              <input type="checkbox"  name="spirala">Spirala
+
+              <input type="submit" name="submit" value="Dodaj" id="dugme2">
+              <br>	<br>	
+         </form>
+         <br> <br>
+
+  </div>
+
+         <div id="footer">
+     	Web tehnologije 2018/19
+     </div>
+</body>
+</html>

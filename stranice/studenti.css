@@ -1,0 +1,135 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#header {
+	background: #d2a679;
+	min-height: 70px;
+	overflow: hidden;
+	border:2px  #ccddff solid;
+}
+#meni {
+	margin-top: 15px;
+
+}
+h1 {
+	position:absolute;
+	right:0%;
+	margin:0;
+	
+	
+}
+#logo{
+	max-width:4%;
+	max-height:4%;
+}
+
+ ul {
+	list-style-type: none;
+	overflow: hidden;
+    
+}
+#meni li {
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+#meni a {
+	color:#734d26;
+}
+
+#meni a:hover {
+	color: #00802b;
+}
+h2 {
+	position: relative;
+	left:25%;
+	margin-top:10%;
+}
+
+#glavniSadrzaj a:hover {
+	color: #00802b;
+}
+#side {
+
+	float:left;
+	width:35%;
+	height: 500px;
+	background: #ccddff;
+	overflow: hidden;
+}
+
+#glavniSadrzaj {
+	float:right;
+	width:65%;
+	height: 500px;
+	background:#ffd9b3;
+	overflow: hidden;
+	
+}
+
+#footer {
+	clear: both;
+	background:#d2a679;
+	overflow: hidden;
+	padding:10px;
+	
+}
+
+.box  {
+	margin:20%;
+	border: 1px solid black;
+	overflow-y: scroll;
+
+}
+.box ul {
+	padding-bottom: 50%;
+}
+
+table {
+	margin:100px auto ;
+
+}
+table th {
+	background:#ffb380;
+
+}
+table, th, td {
+	border:1px solid;
+	border-collapse: collapse;
+}
+
+th,td {
+	padding:8px;
+}
+
+
+
+#glavniSadrzaj a {
+	color:#993d00;
+}
+
+@media (max-width: 600px ) {
+	#meni li,#meni ul,h1{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+	#meni li {
+		display: block;
+	}
+	#meni {
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
+	h1 {
+		margin-bottom: 0px;
+		margin-top:160px;
+		padding-top: 5px;
+	}
+	#side,#glavniSadrzaj {
+		float: none;
+		width:100%;
+		
+	}
+}
