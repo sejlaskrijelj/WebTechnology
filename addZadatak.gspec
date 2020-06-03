@@ -1,0 +1,67 @@
+@objects
+    header         #header
+        logo       img
+        naslov     h1
+        meni       #meni
+            item-*     li
+    glavniSadrzaj  #glavniSadrzaj
+    footer         #footer
+= Header =
+    header:
+        @on desktop
+            centered horizontally inside screen
+
+        @on mobile 
+            inside screen 0px left right 
+
+    header.logo:
+        inside header 0 to 5px left top
+        width 40px
+        height 4% of screen/width
+
+    header.naslov:
+        inside header 0 to 5px top right
+        @on desktop 
+            inside header 0px top right
+
+
+        @on mobile 
+            inside header 160px to 200px top 
+
+    header.meni:
+        inside header 0 to 10px bottom
+        
+        @forEach [meni.item-*] as meniItem, next as nextMeniItem
+            ${meniItem}:
+                left-of ${nextMeniItem} 10px
+                aligned horizontally all ${nextMeniItem}
+                    
+        @on mobile
+            @forEach [meni.item-*] as meniItem, next as nextMeniItem
+                ${meniItem}:
+                    above ${nextMeniItem} 5px to 20px
+                    aligned vertically all ${nextMeniItem}
+           
+         
+
+
+= Main section =
+    glavniSadrzaj:
+        centered horizontally inside screen
+        height 500px
+        width ~85% of screen/width
+
+    @on mobile
+        glavniSadrzaj:
+            width 100% of header/width
+
+        
+= Footer =
+    footer:
+        text is "Web tehnologije 2018/19"    
+        
+    
+    
+
+
+

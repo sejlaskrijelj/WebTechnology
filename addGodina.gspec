@@ -1,0 +1,85 @@
+@objects
+    header         #header
+        logo       img
+        naslov     h1
+        meni       #meni
+            item-*     li
+
+    side           #side
+    glavniSadrzaj  #glavniSadrzaj
+    
+            
+        
+    footer         #footer
+= Header =
+    header:
+        @on desktop
+            centered horizontally inside screen
+
+        @on mobile 
+            inside screen 0px left right 
+
+    header.logo:
+        inside header 0 to 5px left top
+        width 40px
+        height 4% of screen/width
+
+    header.naslov:
+        inside header 0 to 5px top right
+        @on desktop 
+            inside header 0px top right
+
+
+        @on mobile 
+            inside header 160px to 200px top 
+
+    header.meni:
+        inside header 0 to 10px bottom
+        
+        @forEach [meni.item-*] as meniItem, next as nextMeniItem
+            ${meniItem}:
+                left-of ${nextMeniItem} 10px
+                aligned horizontally all ${nextMeniItem}
+                    
+        @on mobile
+            @forEach [meni.item-*] as meniItem, next as nextMeniItem
+                ${meniItem}:
+                    above ${nextMeniItem} 5px to 20px
+                    aligned vertically all ${nextMeniItem}
+           
+         
+
+
+= Main section =
+    side:
+        height 500px
+        inside viewport 0 to 2px left 
+        left-of glavniSadrzaj 0 to 1px
+        width ~35% of screen/width
+    glavniSadrzaj:
+        height 500px
+        inside viewport 0 to 2px right 
+        right-of side 0 to 1px
+        width ~65% of screen/width
+            
+                
+    @on mobile
+        side:
+            above glavniSadrzaj 0 to 1px
+            width 100% of header/width
+        glavniSadrzaj:
+            below side 0 to 1px
+            width 100% of header/width
+
+        
+= Footer =
+    footer:
+        text is "Web tehnologije 2018/19"    
+        
+    @on mobile
+        footer:
+            below glavniSadrzaj 0 to 1px top 
+    
+
+
+

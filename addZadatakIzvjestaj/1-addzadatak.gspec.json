@@ -1,0 +1,157 @@
+{
+  "testId" : "1-addzadatak.gspec",
+  "name" : "addZadatak.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  addZadatak.gspec --url http://localhost/addZadatak.html --size 1024x768 --htmlreport addZadatakIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: addZadatak.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541539612683,
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "addZadatak.gspec",
+              "lineNumber" : 9
+            },
+            "objects" : [ {
+              "name" : "header.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addZadatak.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "inside header 0 to 5px left top",
+                "highlight" : [ "header.logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addZadatak.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "width 40px",
+                "highlight" : [ "header.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addZadatak.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "height 4% of screen/width",
+                "highlight" : [ "header.logo" ]
+              } ]
+            }, {
+              "name" : "header.naslov",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addZadatak.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "inside header 0 to 5px top right",
+                "highlight" : [ "header.naslov", "header" ]
+              } ]
+            }, {
+              "name" : "header.meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addZadatak.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside header 0 to 10px bottom",
+                "highlight" : [ "header.meni", "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "addZadatak.gspec",
+              "lineNumber" : 48
+            },
+            "objects" : [ {
+              "name" : "glavniSadrzaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addZadatak.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "glavniSadrzaj", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addZadatak.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "height 500px",
+                "highlight" : [ "glavniSadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addZadatak.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width ~85% of screen/width",
+                "highlight" : [ "glavniSadrzaj" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer",
+            "place" : {
+              "filePath" : "addZadatak.gspec",
+              "lineNumber" : 59
+            },
+            "objects" : [ {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addZadatak.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "text is \"Web tehnologije 2018/19\"",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header.logo" : {
+              "area" : [ 0, 0, 40, 41 ]
+            },
+            "glavniSadrzaj" : {
+              "area" : [ 75, 78, 860, 500 ]
+            },
+            "footer" : {
+              "area" : [ 0, 578, 1012, 38 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 1012, 78 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1012, 687 ]
+            },
+            "header.meni" : {
+              "area" : [ 0, 60, 1012, 18 ]
+            },
+            "header.naslov" : {
+              "area" : [ 747, 0, 264, 38 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541539610940,
+        "type" : "node"
+      } ],
+      "time" : 1541539604437,
+      "type" : "node"
+    } ]
+  }
+}

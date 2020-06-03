@@ -1,0 +1,117 @@
+{
+  "testId" : "1-commiti.gspec",
+  "name" : "commiti.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  commiti.gspec --url http://localhost/commiti.html --size 1024x768 --htmlreport CommitiIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: commiti.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541539544824,
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "commiti.gspec",
+              "lineNumber" : 10
+            },
+            "objects" : [ {
+              "name" : "header.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "inside header 0 to 5px left top",
+                "highlight" : [ "header.logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "width 40px",
+                "highlight" : [ "header.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "height 4% of screen/width",
+                "highlight" : [ "header.logo" ]
+              } ]
+            }, {
+              "name" : "header.naslov",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "inside header 0 to 5px top right",
+                "highlight" : [ "header.naslov", "header" ]
+              } ]
+            }, {
+              "name" : "header.meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "inside header 0 to 10px bottom",
+                "highlight" : [ "header.meni", "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer",
+            "place" : {
+              "filePath" : "commiti.gspec",
+              "lineNumber" : 50
+            },
+            "objects" : [ {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "text is \"Web tehnologije 2018/19\"",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header.logo" : {
+              "area" : [ 0, 0, 40, 41 ]
+            },
+            "footer" : {
+              "area" : [ 0, 560, 1012, 38 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 1012, 78 ]
+            },
+            "header.meni" : {
+              "area" : [ 0, 60, 1012, 18 ]
+            },
+            "header.naslov" : {
+              "area" : [ 780, 0, 231, 38 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541539543164,
+        "type" : "node"
+      } ],
+      "time" : 1541539535817,
+      "type" : "node"
+    } ]
+  }
+}

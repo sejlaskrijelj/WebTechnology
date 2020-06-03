@@ -1,0 +1,157 @@
+{
+  "testId" : "1-addstudent.gspec",
+  "name" : "addStudent.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  addStudent.gspec --url http://localhost/addStudent.html --size 1024x768 --htmlreport addStudentIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: addStudent.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541539764374,
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "addStudent.gspec",
+              "lineNumber" : 9
+            },
+            "objects" : [ {
+              "name" : "header.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "inside header 0 to 5px left top",
+                "highlight" : [ "header.logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "width ~40px",
+                "highlight" : [ "header.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "height 4% of screen/width",
+                "highlight" : [ "header.logo" ]
+              } ]
+            }, {
+              "name" : "header.naslov",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "inside header 0 to 5px top right",
+                "highlight" : [ "header.naslov", "header" ]
+              } ]
+            }, {
+              "name" : "header.meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside header 0 to 10px bottom",
+                "highlight" : [ "header.meni", "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "addStudent.gspec",
+              "lineNumber" : 48
+            },
+            "objects" : [ {
+              "name" : "glavniSadrzaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "glavniSadrzaj", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "height 500 to 700px",
+                "highlight" : [ "glavniSadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width ~85% of screen/width",
+                "highlight" : [ "glavniSadrzaj" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer",
+            "place" : {
+              "filePath" : "addStudent.gspec",
+              "lineNumber" : 59
+            },
+            "objects" : [ {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "text is \"Web tehnologije 2018/19\"",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header.logo" : {
+              "area" : [ 0, 0, 39, 41 ]
+            },
+            "glavniSadrzaj" : {
+              "area" : [ 74, 77, 845, 590 ]
+            },
+            "footer" : {
+              "area" : [ 0, 668, 995, 38 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 995, 77 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 995, 706 ]
+            },
+            "header.meni" : {
+              "area" : [ 0, 59, 995, 18 ]
+            },
+            "header.naslov" : {
+              "area" : [ 651, 0, 343, 38 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541539762700,
+        "type" : "node"
+      } ],
+      "time" : 1541539756414,
+      "type" : "node"
+    } ]
+  }
+}

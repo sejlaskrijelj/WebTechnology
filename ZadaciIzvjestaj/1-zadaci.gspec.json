@@ -1,0 +1,187 @@
+{
+  "testId" : "1-zadaci.gspec",
+  "name" : "zadaci.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  zadaci.gspec --url http://localhost/zadaci.html --size 1024x768 --htmlreport ZadaciIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: zadaci.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541539246919,
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "zadaci.gspec",
+              "lineNumber" : 12
+            },
+            "objects" : [ {
+              "name" : "header.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "inside header 0 to 5px left top",
+                "highlight" : [ "header.logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "width 40px",
+                "highlight" : [ "header.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "height 4% of screen/width",
+                "highlight" : [ "header.logo" ]
+              } ]
+            }, {
+              "name" : "header.naslov",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside header 0 to 5px top right",
+                "highlight" : [ "header.naslov", "header" ]
+              } ]
+            }, {
+              "name" : "header.meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "inside header 0 to 10px bottom",
+                "highlight" : [ "header.meni", "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "zadaci.gspec",
+              "lineNumber" : 51
+            },
+            "objects" : [ {
+              "name" : "cetvrtina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "height 500px",
+                "highlight" : [ "cetvrtina" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "width ~25% of screen/width",
+                "highlight" : [ "cetvrtina" ]
+              } ]
+            }, {
+              "name" : "polovina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "height 500px",
+                "highlight" : [ "polovina" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "inside viewport 0 to 2px right",
+                "highlight" : [ "polovina", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "right-of cetvrtina 0 to 1px",
+                "highlight" : [ "polovina", "cetvrtina" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width ~50% of screen/width",
+                "highlight" : [ "polovina" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer",
+            "place" : {
+              "filePath" : "zadaci.gspec",
+              "lineNumber" : 74
+            },
+            "objects" : [ {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "text is \"Web tehnologije 2018/19\"",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header.logo" : {
+              "area" : [ 0, 0, 40, 41 ]
+            },
+            "viewport" : {
+              "area" : [ 0, 0, 1012, 687 ]
+            },
+            "footer" : {
+              "area" : [ 0, 578, 1012, 34 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 1012, 78 ]
+            },
+            "header.meni" : {
+              "area" : [ 0, 60, 1012, 18 ]
+            },
+            "header.naslov" : {
+              "area" : [ 817, 0, 194, 38 ]
+            },
+            "polovina" : {
+              "area" : [ 506, 78, 506, 500 ]
+            },
+            "cetvrtina" : {
+              "area" : [ 253, 78, 253, 500 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541539244803,
+        "type" : "node"
+      } ],
+      "time" : 1541539237505,
+      "type" : "node"
+    } ]
+  }
+}

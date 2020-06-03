@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "addGodina.gspec",
+    "startedAt" : 1541539687496,
+    "endedAt" : 1541539698547,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 14,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 14
+    },
+    "testId" : "1-addgodina.gspec",
+    "duration" : 11051,
+    "failed" : false
+  } ]
+}

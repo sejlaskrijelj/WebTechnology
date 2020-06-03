@@ -1,0 +1,203 @@
+{
+  "testId" : "1-addgodina.gspec",
+  "name" : "addGodina.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  addGodina.gspec --url http://localhost/addGodina.html --size 1024x768 --htmlreport addGodinaIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: addGodina.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541539697295,
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "addGodina.gspec",
+              "lineNumber" : 14
+            },
+            "objects" : [ {
+              "name" : "header.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "inside header 0 to 5px left top",
+                "highlight" : [ "header.logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "width 40px",
+                "highlight" : [ "header.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "height 4% of screen/width",
+                "highlight" : [ "header.logo" ]
+              } ]
+            }, {
+              "name" : "header.naslov",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "inside header 0 to 5px top right",
+                "highlight" : [ "header.naslov", "header" ]
+              } ]
+            }, {
+              "name" : "header.meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "inside header 0 to 10px bottom",
+                "highlight" : [ "header.meni", "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "addGodina.gspec",
+              "lineNumber" : 53
+            },
+            "objects" : [ {
+              "name" : "side",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 55
+                },
+                "name" : "height 500px",
+                "highlight" : [ "side" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "inside viewport 0 to 2px left",
+                "highlight" : [ "side", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "left-of glavniSadrzaj 0 to 1px",
+                "highlight" : [ "side", "glavniSadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "width ~35% of screen/width",
+                "highlight" : [ "side" ]
+              } ]
+            }, {
+              "name" : "glavniSadrzaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "height 500px",
+                "highlight" : [ "glavniSadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "inside viewport 0 to 2px right",
+                "highlight" : [ "glavniSadrzaj", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "right-of side 0 to 1px",
+                "highlight" : [ "glavniSadrzaj", "side" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "width ~65% of screen/width",
+                "highlight" : [ "glavniSadrzaj" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer",
+            "place" : {
+              "filePath" : "addGodina.gspec",
+              "lineNumber" : 75
+            },
+            "objects" : [ {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "text is \"Web tehnologije 2018/19\"",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header.logo" : {
+              "area" : [ 0, 0, 40, 41 ]
+            },
+            "side" : {
+              "area" : [ 0, 78, 354, 500 ]
+            },
+            "glavniSadrzaj" : {
+              "area" : [ 354, 78, 657, 500 ]
+            },
+            "viewport" : {
+              "area" : [ 0, 0, 1012, 687 ]
+            },
+            "footer" : {
+              "area" : [ 0, 578, 1012, 34 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 1012, 78 ]
+            },
+            "header.meni" : {
+              "area" : [ 0, 60, 1012, 18 ]
+            },
+            "header.naslov" : {
+              "area" : [ 817, 0, 194, 38 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541539694683,
+        "type" : "node"
+      } ],
+      "time" : 1541539687501,
+      "type" : "node"
+    } ]
+  }
+}
